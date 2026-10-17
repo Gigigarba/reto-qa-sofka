@@ -1,0 +1,250 @@
+2026-10-16 23:05:46,902 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: Loading user properties from: C:\Users\Asus\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\user.properties
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: Loading system properties from: C:\Users\Asus\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\system.properties
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: Setting JMeter property: duration=60
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: Setting JMeter property: sample_variables=auth_ok
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.output_format=csv
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.print_field_names=true
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.timestamp_format=ms
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: Version 5.6.3
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: java.version=1.8.0_461
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: os.name=Windows 11
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: os.arch=x86
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: os.version=10.0
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: file.encoding=Cp1252
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: java.awt.headless=true
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-10-16 23:05:46,915 INFO o.a.j.JMeter: Available Processors =20
+2026-10-16 23:05:46,923 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-10-16 23:05:46,923 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-10-16 23:05:46,923 INFO o.a.j.JMeter: JMeterHome=C:\Users\Asus\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2026-10-16 23:05:46,923 INFO o.a.j.JMeter: user.dir  =C:\Users\Asus\reto-qa\performance
+2026-10-16 23:05:46,923 INFO o.a.j.JMeter: PWD       =C:\Users\Asus\reto-qa\performance
+2026-10-16 23:05:46,923 INFO o.a.j.JMeter: IP: 192.168.100.11 Name: Rusu FullName: Rusu
+2026-10-16 23:05:46,941 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\Asus\reto-qa\performance\reporte-carga-02'
+2026-10-16 23:05:46,943 INFO o.a.j.s.FileServer: Default base='C:\Users\Asus\reto-qa\performance'
+2026-10-16 23:05:46,943 INFO o.a.j.s.FileServer: Set new base='C:\Users\Asus\reto-qa\performance'
+2026-10-16 23:05:47,056 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-10-16 23:05:47,079 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-10-16 23:05:47,085 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-10-16 23:05:47,091 INFO o.a.j.s.SaveService: Loading file: login-carga.jmx
+2026-10-16 23:05:47,151 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-16 23:05:47,151 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-16 23:05:47,151 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-16 23:05:47,151 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-16 23:05:47,151 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-10-16 23:05:47,151 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-10-16 23:05:47,359 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-10-16 23:05:47,359 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-10-16 23:05:47,373 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: resultados-carga-02.jtl
+2026-10-16 23:05:47,373 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Users\Asus\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2026-10-16 23:05:47,373 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-10-16 23:05:47,376 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-10-16 23:05:47,378 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-10-16 23:05:47,378 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-10-16 23:05:47,378 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-10-16 23:05:47,380 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-10-16 23:05:47,380 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-10-16 23:05:47,380 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-10-16 23:05:47,380 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-10-16 23:05:47,380 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-10-16 23:05:47,382 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-10-16 23:05:47,382 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-16 23:05:47,382 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-10-16 23:05:47,382 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-10-16 23:05:47,382 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-10-16 23:05:47,382 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-10-16 23:05:47,384 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-16 23:05:47,384 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-16 23:05:47,384 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-16 23:05:47,384 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-16 23:05:47,384 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-10-16 23:05:47,384 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-10-16 23:05:47,384 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-10-16 23:05:47,384 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-10-16 23:05:47,384 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-10-16 23:05:47,384 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-10-16 23:05:47,388 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-10-16 23:05:47,388 INFO o.a.j.s.SampleEvent: List of sample_variables: [auth_ok]
+2026-10-16 23:05:47,388 INFO o.a.j.s.SampleEvent: List of sample_variables: [auth_ok]
+2026-10-16 23:05:47,394 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-10-16 23:05:47,394 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-10-16 23:05:47,745 INFO o.a.j.JMeter: Running test (1792209947745)
+2026-10-16 23:05:47,777 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Carga - 22 TPS objetivo
+2026-10-16 23:05:47,777 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Carga - 22 TPS objetivo.
+2026-10-16 23:05:47,777 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-16 23:05:47,777 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=5 delayedStart=false
+2026-10-16 23:05:47,798 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-10-16 23:05:47,798 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-10-16 23:05:47,808 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-1
+2026-10-16 23:05:47,813 INFO o.a.j.s.FileServer: Stored: usuarios.csv
+2026-10-16 23:05:47,840 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Rusu
+2026-10-16 23:05:47,845 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-10-16 23:05:47,846 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-10-16 23:05:47,846 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-10-16 23:05:47,846 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-10-16 23:05:47,846 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-10-16 23:05:47,903 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-2
+2026-10-16 23:05:47,917 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2026-10-16 23:05:47,922 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2026-10-16 23:05:47,922 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2026-10-16 23:05:48,005 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-3
+2026-10-16 23:05:48,104 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-4
+2026-10-16 23:05:48,205 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-5
+2026-10-16 23:05:48,301 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-6
+2026-10-16 23:05:48,375 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2026-10-16 23:05:48,377 INFO o.a.j.u.SSLManager: KeyStore created OK
+2026-10-16 23:05:48,377 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2026-10-16 23:05:48,401 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-7
+2026-10-16 23:05:48,499 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-8
+2026-10-16 23:05:48,601 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-9
+2026-10-16 23:05:48,701 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-10
+2026-10-16 23:05:48,812 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-11
+2026-10-16 23:05:48,898 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-12
+2026-10-16 23:05:48,998 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-13
+2026-10-16 23:05:49,099 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-14
+2026-10-16 23:05:49,197 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-15
+2026-10-16 23:05:49,297 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-16
+2026-10-16 23:05:49,398 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-17
+2026-10-16 23:05:49,499 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-18
+2026-10-16 23:05:49,597 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-19
+2026-10-16 23:05:49,695 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-20
+2026-10-16 23:05:49,796 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-21
+2026-10-16 23:05:49,895 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-22
+2026-10-16 23:05:49,994 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-23
+2026-10-16 23:05:50,092 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-24
+2026-10-16 23:05:50,192 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-25
+2026-10-16 23:05:50,294 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-26
+2026-10-16 23:05:50,394 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-27
+2026-10-16 23:05:50,493 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-28
+2026-10-16 23:05:50,593 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-29
+2026-10-16 23:05:50,693 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-30
+2026-10-16 23:05:50,792 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-31
+2026-10-16 23:05:50,893 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-32
+2026-10-16 23:05:50,993 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-33
+2026-10-16 23:05:51,093 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-34
+2026-10-16 23:05:51,192 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-35
+2026-10-16 23:05:51,295 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-36
+2026-10-16 23:05:51,392 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-37
+2026-10-16 23:05:51,487 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-38
+2026-10-16 23:05:51,590 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-39
+2026-10-16 23:05:51,689 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-40
+2026-10-16 23:05:51,788 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-41
+2026-10-16 23:05:51,889 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-42
+2026-10-16 23:05:51,988 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-43
+2026-10-16 23:05:52,089 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-44
+2026-10-16 23:05:52,194 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-45
+2026-10-16 23:05:52,294 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-46
+2026-10-16 23:05:52,391 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-47
+2026-10-16 23:05:52,491 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-48
+2026-10-16 23:05:52,591 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-49
+2026-10-16 23:05:52,691 INFO o.a.j.t.JMeterThread: Thread started: Carga - 22 TPS objetivo 1-50
+2026-10-16 23:06:00,055 INFO o.a.j.r.Summariser: summary +    249 in 00:00:12 =   20.2/s Avg:   387 Min:   323 Max:  1309 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2026-10-16 23:06:30,016 INFO o.a.j.r.Summariser: summary +    669 in 00:00:30 =   22.3/s Avg:   374 Min:   325 Max:   874 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2026-10-16 23:06:30,018 INFO o.a.j.r.Summariser: summary =    918 in 00:00:42 =   21.7/s Avg:   377 Min:   323 Max:  1309 Err:     0 (0.00%)
+2026-10-16 23:06:45,949 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-1
+2026-10-16 23:06:45,974 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-12
+2026-10-16 23:06:46,018 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-23
+2026-10-16 23:06:46,045 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-34
+2026-10-16 23:06:46,155 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-36
+2026-10-16 23:06:46,173 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-37
+2026-10-16 23:06:46,206 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-38
+2026-10-16 23:06:46,236 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-35
+2026-10-16 23:06:46,302 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-18
+2026-10-16 23:06:46,396 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-39
+2026-10-16 23:06:46,408 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-19
+2026-10-16 23:06:46,410 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-24
+2026-10-16 23:06:46,441 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-17
+2026-10-16 23:06:46,454 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-26
+2026-10-16 23:06:46,546 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-40
+2026-10-16 23:06:46,585 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-42
+2026-10-16 23:06:46,637 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-25
+2026-10-16 23:06:46,669 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-11
+2026-10-16 23:06:46,672 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-7
+2026-10-16 23:06:46,760 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-43
+2026-10-16 23:06:46,804 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-8
+2026-10-16 23:06:46,881 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-28
+2026-10-16 23:06:46,913 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-41
+2026-10-16 23:06:46,966 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-45
+2026-10-16 23:06:47,041 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-44
+2026-10-16 23:06:47,063 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-3
+2026-10-16 23:06:47,087 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-27
+2026-10-16 23:06:47,122 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-5
+2026-10-16 23:06:47,174 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-6
+2026-10-16 23:06:47,252 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-2
+2026-10-16 23:06:47,284 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-29
+2026-10-16 23:06:47,318 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-9
+2026-10-16 23:06:47,360 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-4
+2026-10-16 23:06:47,403 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-47
+2026-10-16 23:06:47,419 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-46
+2026-10-16 23:06:47,494 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-14
+2026-10-16 23:06:47,535 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-49
+2026-10-16 23:06:47,584 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-30
+2026-10-16 23:06:47,605 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-48
+2026-10-16 23:06:47,670 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-20
+2026-10-16 23:06:47,725 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-32
+2026-10-16 23:06:47,771 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-31
+2026-10-16 23:06:47,816 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga - 22 TPS objetivo 1-13
+2026-10-16 23:06:47,816 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga - 22 TPS objetivo 1-50
+2026-10-16 23:06:47,816 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-13
+2026-10-16 23:06:47,816 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-50
+2026-10-16 23:06:47,864 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga - 22 TPS objetivo 1-10
+2026-10-16 23:06:47,864 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-10
+2026-10-16 23:06:47,896 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga - 22 TPS objetivo 1-16
+2026-10-16 23:06:47,896 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-16
+2026-10-16 23:06:47,944 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga - 22 TPS objetivo 1-33
+2026-10-16 23:06:47,944 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-33
+2026-10-16 23:06:48,023 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga - 22 TPS objetivo 1-15
+2026-10-16 23:06:48,023 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-15
+2026-10-16 23:06:48,071 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga - 22 TPS objetivo 1-21
+2026-10-16 23:06:48,071 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-21
+2026-10-16 23:06:48,135 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Carga - 22 TPS objetivo 1-22
+2026-10-16 23:06:48,135 INFO o.a.j.t.JMeterThread: Thread finished: Carga - 22 TPS objetivo 1-22
+2026-10-16 23:06:48,135 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-10-16 23:06:48,135 INFO o.a.j.s.FileServer: Close: usuarios.csv
+2026-10-16 23:06:48,135 INFO o.a.j.r.Summariser: summary +    401 in 00:00:18 =   22.1/s Avg:   361 Min:   327 Max:   679 Err:     0 (0.00%) Active: 0 Started: 50 Finished: 50
+2026-10-16 23:06:48,135 INFO o.a.j.r.Summariser: summary =   1319 in 00:01:00 =   21.8/s Avg:   372 Min:   323 Max:  1309 Err:     0 (0.00%)
+2026-10-16 23:06:48,135 INFO o.a.j.JMeter: Generating Dashboard
+2026-10-16 23:06:48,135 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-10-16 23:06:48,151 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-10-16 23:06:48,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-10-16 23:06:48,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-10-16 23:06:48,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-10-16 23:06:48,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-10-16 23:06:48,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-10-16 23:06:48,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-10-16 23:06:48,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-10-16 23:06:48,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-10-16 23:06:48,309 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-10-16 23:06:48,309 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-10-16 23:06:48,309 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-10-16 23:06:48,309 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 9233 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 19785 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 3957 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1319 samples
+2026-10-16 23:06:48,315 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1319 samples produced in 133ms on channel 0
+2026-10-16 23:06:48,315 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-10-16 23:06:48,415 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-10-16 23:06:48,415 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-10-16 23:06:48,415 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-10-16 23:06:48,415 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-10-16 23:06:48,415 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\Asus\reto-qa\performance\reporte-carga-02\statistics.json
+2026-10-16 23:06:48,452 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-10-16 23:06:48,452 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\Asus\reto-qa\performance\reporte-carga-02
+2026-10-16 23:06:48,534 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\Asus\reto-qa\performance\reporte-carga-02, creating folder structure
+2026-10-16 23:06:48,548 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Users\Asus\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\Asus\reto-qa\performance\reporte-carga-02', got message: C:\Users\Asus\reto-qa\performance\reporte-carga-02, found non empty folder with following content [C:\Users\Asus\reto-qa\performance\reporte-carga-02\statistics.json], will be ignored
+2026-10-16 23:06:48,969 INFO o.a.j.JMeter: Dashboard generated

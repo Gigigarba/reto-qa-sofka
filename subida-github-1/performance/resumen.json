@@ -1,0 +1,21 @@
+{
+  "archivo": "resultados-carga-02.jtl",
+  "muestras": 1319,
+  "ventanaMedicionSegundos": 60.246,
+  "tps": 21.89356969757328,
+  "tpsConAutenticacionValida": 21.89356969757328,
+  "erroresFuncionales": 0,
+  "porcentajeErrorFuncional": 0,
+  "erroresJMeter": 0,
+  "porcentajeErrorJMeter": 0,
+  "promedioMs": 372.6732373009856,
+  "p95Ms": 461,
+  "maximoMs": 1309,
+  "solicitudesSobre1500Ms": 0,
+  "criterios": {
+    "tpsMinimo20": true,
+    "maximo1500Ms": true,
+    "errorMenor3PorCiento": true
+  },
+  "cumple": true
+}
