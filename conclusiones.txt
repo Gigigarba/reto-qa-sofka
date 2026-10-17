@@ -1,0 +1,19 @@
+CONCLUSIONES
+
+PetStore
+El caso pasó en 1,681 s. Se comprobó la creación, consulta, actualización y eliminación de un usuario, incluido el 404 después de eliminarlo. El reporte conserva los datos enviados y las respuestas.
+
+OpenCart
+El caso pasó en 18,896 s. Se agregaron HTC Touch HD y Canon EOS 5D roja, se verificaron dos productos con una unidad cada uno y se completó la compra como invitado hasta el mensaje Your order has been placed! El reporte incluye capturas del carrito, pedido y confirmación.
+
+Durante la revisión se observó el título Use Gift Certificate en el carrito. El caso comprueba la URL y el contenido de la tabla para validar ese paso. También se observó una advertencia de stock para iPhone; los productos usados en la ejecución final permitieron completar la compra.
+
+Login de FakeStore
+La ejecución completa registró 1319 solicitudes en 60,246 s, 21,894 TPS y 0 % de errores. El promedio fue 372,67 ms, el p95 461 ms y el máximo 1309 ms. Se cumplen los tres criterios solicitados para esta ejecución.
+
+Se conserva por separado el primer intento, interrumpido antes de completar los 60 s, con respuestas por encima de 1500 ms. La diferencia entre intentos justifica evaluar más ejecuciones antes de concluir que el rendimiento es estable.
+
+Análisis del segundo ejercicio
+El informe identifica 6759 fallos en los datos proporcionados, principalmente errores 5xx, y una caída de peticiones por segundo con usuarios virtuales estables. Se recomienda revisar ese intervalo y los registros del servicio. El promedio de respuesta no refleja las demoras extremas de hasta 29,93 s.
+
+Las pruebas funcionales entregadas cubren los flujos solicitados en Chromium. La carga ejecutada dura 60 s; estos resultados no permiten concluir capacidad sostenida a largo plazo.
